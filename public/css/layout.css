@@ -36,7 +36,6 @@ header {
    background: #161415 url(../images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
-   text-align: center;
    overflow: hidden;
 }
 
@@ -50,27 +49,33 @@ header:before {
 header .banner {
    display: inline-block;
    vertical-align: middle;
-   margin: 0 auto;
+   margin: 0 auto 0 30px;
    width: 85%;
    padding-bottom: 30px;
-   text-align: center;
 }
 
-header .banner-text { width: 100%; }
+header .banner-text { 
+    background: url(../images/brush-stroke.svg);
+    background-repeat: no-repeat;
+    background-size: 74% 245%;
+    background-position: -30px -256px;
+    padding: 84px 50px;
+    width: 100%;
+}
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: -2px;
-   margin: 0 auto 18px auto;
+   margin: 0 auto 0 -7px;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
-   margin: 0 auto;
-   width: 70%;
+   color: #fff;
+   width: 61%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
+
 header .banner-text h3 span,
 header .banner-text h3 a {
    color: #fff;
@@ -81,21 +86,6 @@ header .banner-text hr {
    border-color: #2F2D2E;
    border-color: rgba(150, 150, 150, .1);
 }
-
-/* header social links */
-header .social {
-   margin: 24px 0;
-   padding: 0;
-   font-size: 30px;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
-}
-header .social li {
-   display: inline-block;
-   margin: 0 15px;
-   padding: 0;
-}
-header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -179,7 +169,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #ff2b2b; }
 
 
 /* ------------------------------------------------------------------ */
@@ -249,16 +239,17 @@ ul#nav li.current a { color: #F06000; }
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
-}
-#resume h1 span {
-   border-bottom: 3px solid #11ABB0;
-   padding-bottom: 6px;
+   color: white;
+    width: 52%;
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 9px; }
+#resume .header-col {
+  padding: 19px 10px 13px 30px;
+  text-align: center;
+}
 #resume .main-col { padding-right: 10%; }
 
 .education, .work {
@@ -281,6 +272,27 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
+.education .header-col {
+  background: url(../images/background-assets/blue_green_brush.png);
+  background-repeat: no-repeat;
+  background-size: 72% 83%;
+  background-position: 0px 4px;
+}
+
+.work .header-col {
+  background: url(../images/background-assets/red_orange_brush.png);
+  background-repeat: no-repeat;
+  background-size: 72% 83%;
+  background-position: 0px 4px;
+}
+
+.skill .header-col {
+  background: url(../images/background-assets/dark_grey_brush.png);
+  background-repeat: no-repeat;
+  background-size: 72% 83%;
+  background-position: 0px 4px;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
@@ -292,15 +304,15 @@ ul#nav li.current a { color: #F06000; }
 	text-align: left;
 }
 .bars .skills {
-  	margin-top: 36px;
-   list-style: none;
+  margin-top: 36px;
+  list-style: none;
 }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
   	background: #ccc;
-  	height: 42px;
-  	border-radius: 3px;
+  	height: 10px;
+  	border-radius: 25px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
@@ -320,7 +332,7 @@ ul#nav li.current a { color: #F06000; }
    padding-right: 24px;
   	background: #313131;
    display: inline-block;
-  	height: 42px;
+  	height: 10px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }

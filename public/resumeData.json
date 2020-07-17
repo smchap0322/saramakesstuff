@@ -1,97 +1,68 @@
 {
   "main": {
-    "name":"Tim Baker",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "name":"Sara",
+    "occupation":"Software Engineer",
+    "description":"I like to make things, and make them pretty",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "bio":"Born in Colombia, grew up playing piano and painting. Discovered coding in college and never looked back.",
+    "contactmessage":"Reach out! I love to get to know people.",
+    "email": "smchaparro@gmail.com",
+    "phone": "571-271-1164",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"2430 Wickstrom Pl",
+      "city":"Seattle",
+      "state":"WA",
+      "zip": "98116"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
-    "social":[
-      {
-        "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
-      },
-      {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"http://github.com/tbakerx",
-        "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
-      }
-    ]
+    "website": "http://www.saramakesstuff.com",
+    "resumedownload":"http://saramakesstuff.com"
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"I like to code and create art. The overlap between those two is where my brain lives.",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Boston University",
+        "degree":"Bachelors in Computer Science and Mathematics",
+        "graduated":"May 2014",
+        "description":"Switches from a fine arts major to programming. Funny how similar those two fields ended up being."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Leadkarma",
+        "title":"Junior Web Developer",
+        "years":"2014-2016",
+        "description":"I did things."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"ScienceLogic",
+        "title":"Web Developer",
+        "years":"2016-2017",
+        "description":"I did other things."
+      },
+      {
+        "company":"NASA/Raytheon",
+        "title":"Software Engineer",
+        "years":"2017",
+        "description":"I did even more cool things."
+      },
+      {
+        "company":"Amazon",
+        "title":"Web Developer",
+        "years":"2018-2019",
+        "description":"I did more stuff, it was fine."
+      },
+      {
+        "company":"Getty Images",
+        "title":"Software Engineer",
+        "years":"2019 to present",
+        "description":"I'm doing things!"
       }
     ],
     "skills":[
       {
         "name":"Git",
         "level":"60%"
-      },
-      {
-        "name":"Illustrator",
-        "level":"55%"
       },
       {
         "name":"ReactJs",
@@ -106,11 +77,15 @@
         "level":"80%"
       },
       {
-        "name":"VueJs",
-        "level":"50%"
+        "name":"Javascript",
+        "level":"80%"
       },
       {
-        "name":"MongoDB",
+        "name":"Ruby on Rails",
+        "level":"80%"
+      },
+      {
+        "name":"Photoshop",
         "level":"80%"
       }
     ]
@@ -118,46 +93,46 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
+        "title":"Art Portfolio",
         "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "image":"art.jpeg",
+        "url":"https://www.dropbox.com/sh/fqiqgbpkg5et6jz/AABGdxkO_2CqUQoWfulePJOoa?dl=0"
       },
       {
-        "title":"Fury Fighting Gear",
+        "title":"American Provision - commercial",
         "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "image":"ap.jpeg",
+        "url":"https://www.dropbox.com/sh/9mbvyo90su0pxb6/AAAqN3sjc3JA86syvdjl7l9Ea?dl=0"
       },
       {
-        "title":"Original Thai Food",
+        "title":"Leadkarma",
         "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "image":"lk.png",
+        "url":"https://www.dropbox.com/sh/9b76w336mbxqr36/AACfnqP7acMcfE8bo_W7FTkca?dl=0"
       },
       {
-        "title":"Resume Website",
+        "title":"ScienceLogic",
         "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
+        "image":"sl.png",
+        "url":"https://www.dropbox.com/sh/ixzkht70mnsx2pu/AAAQR6Hqt155ObNhI9CvnP1pa?dl=0"
       },
       {
-        "title":"Smirkspace",
+        "title":"Volunteering",
         "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "image":"rsc.png",
+        "url":"https://www.dropbox.com/sh/4cfwkvutd5dvecq/AAD4HdRuP8qUSLRHLG4aG314a?dl=0"
       }
     ]
   },
   "testimonials":{
     "testimonials":[
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
+        "text":"She's good.",
+        "user":"My mom"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text":"Yeah, she's fine.",
+        "user":"My dad"
       }
     ]
   }
